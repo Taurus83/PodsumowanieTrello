@@ -1,0 +1,112 @@
+body {margin: 0;}
+* {box-sizing: border-box;}
+
+html {
+    font-size: 20px;
+}
+
+body {
+  background: #ffff66;
+  background: -webkit-linear-gradient(to right, #4dff4d, #ffff80); 
+  background: linear-gradient(to right, #809fff, #ffff66); 
+}
+
+h1, h2 {
+  text-align: center;
+    font-family: 'Italic', sans-serif;
+    color: #fff;
+    background: rgba(140, 46, 30, 0.34);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+  font-size: 55px;
+  margin: 50px 0;
+    line-height: 100px;
+    text-align: center;
+}
+
+.ui-sortable {
+  min-height: 80px;
+}
+.btn-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  background-color: #ff3333;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+/* BOARD */
+.board h1 {
+  margin-left: 8px;
+}
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/* COLUMN */
+.column {
+  order: 1;
+  min-width: 300px;
+  min-height: 50vh;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: lightgrey;
+  margin-left: 8px;
+  list-style: none;
+  position: relative;
+  -webkit-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.column-add-card, .create-column {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 5px 8px;
+  display: block;
+  justify-content: center;
+  background-color: #00bfff;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+/* STYLE KARTY */
+.card {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  padding: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+}
+.card-description {
+  margin: 2px 0;
+}
+.card-placeholder {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  border: 2px solid lightgrey;
+  background-color: lightblue;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "kodilla-podsumowanietrello",
+  "version": "1.0.0",
+  "description": "podsumowanie rozdziału ajax i api",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taurus83/PodsumowanieTrello.git"
+  },
+  "keywords": [
+    "posdumowanie",
+    "ajax",
+    "api",
+    "trello"
+  ],
+  "author": "Piotr Rucinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taurus83/PodsumowanieTrello/issues"
+  },
+  "homepage": "https://github.com/Taurus83/PodsumowanieTrello#readme"
+}
